@@ -82,10 +82,12 @@ The goal of this project is to showcase a **fully automated DevOps pipeline** th
 ## 🧠 Challenges & Learnings
 | Challenge | Solution |
 |------------|-----------|
-| Automating remote EC2 deployments | Integrated SSH-based deployment via GitHub Actions |
+| Automating remote EC2 deployments | Implemented SSH-based remote commands via GitHub Actions |
 | Managing secrets securely | Stored AWS & SSH credentials in GitHub Secrets |
 | ECR authentication issues | Solved using aws-actions/amazon-ecr-login |
 | Deployment downtime | Used docker-compose down && docker-compose up -d for smooth restarts |
+| Ensuring DB persistence |	Added Docker volume and tested recovery after redeploy |
+| Version consistency |	Automated semantic version tagging for each build |
 
 ---
 
