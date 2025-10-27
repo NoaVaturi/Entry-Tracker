@@ -23,7 +23,8 @@ The goal of this project is to showcase a **fully automated DevOps pipeline** th
 ---
 
 ## 📊 Architecture Diagram
-<img width="1141" height="315" alt="diagram-v1" src="https://github.com/user-attachments/assets/ee0818c0-cc63-4733-9c32-1151f1386726" />
+<img width="1130" height="320" alt="diagram-v2" src="https://github.com/user-attachments/assets/8ff0426e-7200-4a6b-b025-1111d7a6ba2e" />
+
 
 
 ---
