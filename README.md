@@ -45,17 +45,16 @@ The goal of this project is to showcase a **fully automated DevOps pipeline** th
 
 ```
 .
+├── app.py                        # Flask application entry point
+├── requirements.txt               # Python dependencies
+├── Dockerfile                     # Docker build configuration
+├── docker-compose.yaml            # Multi-container definition for app, db, and nginx
+├── nginx.conf                     # Nginx reverse proxy configuration
 ├── .github/
 │   └── workflows/
-│       └── application.yml       # GitHub Actions pipeline (test, build, push, deploy)
-│
-├── app.py                        # Flask application entry point
-├── docker-compose.yml            # Docker Compose for EC2 deployment
-├── Dockerfile                    # Image build configuration
-├── nginx.conf                    # Nginx reverse proxy configuration
-├── wait-for-flask.sh             # Helper script to ensure Flask is ready before tests
-├── requirements.txt              # Python dependencies
-├── .env                          # Environment variables (not committed in production)
+│       └── application.yml        # GitHub Actions CI/CD workflow
+└── ...
+# Environment variables (not committed in production)
 ```
 
 ---
