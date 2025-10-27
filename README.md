@@ -46,7 +46,7 @@ The goal of this project is to showcase a **fully automated DevOps pipeline** th
 .
 ├── .github/
 │   └── workflows/
-│       └── application.yml             # GitHub Actions pipeline (test, build, push, deploy)
+│       └── application.yml       # GitHub Actions pipeline (test, build, push, deploy)
 │
 ├── app.py                        # Flask application entry point
 ├── docker-compose.yml            # Docker Compose for EC2 deployment
