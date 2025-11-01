@@ -103,4 +103,4 @@ The goal of this project is to showcase a **fully automated DevOps pipeline** th
 
 ## 👩‍💻 Author
 **Noa Vaturi**  
-💼 [LinkedIn](https://linkedin.com/in/noavaturi) · 💻 [GitHub](https://github.com/NoaVaturi)
+💼 [LinkedIn](https://linkedin.com/in/noa-vaturi) · 💻 [GitHub](https://github.com/NoaVaturi)
